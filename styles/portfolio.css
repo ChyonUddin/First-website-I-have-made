@@ -18,10 +18,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 100px;
 }
 nav > ul{
     display: flex;
     align-items: center;
+    
 }
 nav li{
     list-style: none;
@@ -30,4 +32,19 @@ nav li{
 }
 nav a{
     text-decoration: none;
+}
+
+/* header related styles*/
+
+.header{
+    background-color: #FFF8F3;
+    
+}
+.banner{
+    padding: 30px 50px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
