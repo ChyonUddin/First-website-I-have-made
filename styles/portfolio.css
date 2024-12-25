@@ -22,6 +22,7 @@ font-weight: 700;
     font-size: 35px;
     font-weight: 700px;
     text-align: center;
+    margin-bottom: 30px;
 }
 .section-description{
     color: #757575;
@@ -96,4 +97,16 @@ nav a{
     border-radius: 10px;
     background-color: #FFF8F3;
     margin: 30px 0px;
+}
+main{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+.info-title{
+    text-align: center;
 }
