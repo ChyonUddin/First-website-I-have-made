@@ -8,7 +8,6 @@ body {
 .text-primary{
     color: #FD6E0A;
 }
-
 .btn-primary{
 border-radius: 5px;
 background-color: #FD6E0A;
@@ -42,8 +41,7 @@ nav {
 }
 nav > ul{
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
 }
 nav li{
     list-style: none;
@@ -69,8 +67,7 @@ nav a{
     justify-content: space-between;
 }
 .banner-content{
-    max-width: 500px;
-    
+    max-width: 500px;  
 }
 .banner .profile-pic{
     width: 500px;
@@ -90,7 +87,10 @@ nav a{
     margin-bottom: 15px;
 }
 /*Main section related style*/
-
+main{
+    max-width: 1100px;
+    margin: 0px auto;
+}
 /*About section related style*/
 .about{
     padding: 130px;
@@ -98,15 +98,41 @@ nav a{
     background-color: #FFF8F3;
     margin: 30px 0px;
 }
-main{
-    max-width: 1100px;
-    margin: 0px auto;
+.section-description{
+    padding-bottom: 30px;
 }
 .about-info-container{
     display: flex;
     justify-content: space-between;
-    margin: 15px 0px;
+    margin-top: 40px;
 }
 .info-title{
     text-align: center;
+}
+/*what-i-do-section-container*/
+
+.what-i-do-section-container{
+    margin-top: 130px;
+}
+#what-i-do-descrioption{
+    padding-bottom: 90px;
+    max-width: 1000px;  
+}
+.skills-container{
+    display: flex;   
+}
+.skills{
+    padding: 30px 30px 30px 30px;
+    margin-left: 20px;
+    background-color:#FFF8F3 ;
+}
+.skills-title{
+font-size: 20px;
+font-weight: bold;
+margin-top: 15px;
+}
+.skills-description{
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 15px;
 }
